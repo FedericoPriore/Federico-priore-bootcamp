@@ -1,0 +1,129 @@
+@media (min-width: 576px) {
+    .head {
+      text-align: center;
+      h1 {
+        font-weight: 320;
+        margin-bottom: 2rem;
+        color: #002af9;
+        padding-top: 1rem;
+      }
+  
+      p {
+        margin-bottom: 1rem;
+        font-weight: 100;
+        font-size: 1.4rem;
+        text-align: center;
+        color: #002af9;
+      }
+    }
+  
+    .Form-Container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      text-align: center;
+  
+      &__Form-contact {
+        border: 2px solid #002af9;
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+        color: #002af9;
+        padding: 3rem 3rem 0.5rem 0.9rem;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+        width: auto;
+        height: auto;
+        border-radius: 2rem;
+        text-align: left;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 350;
+        font-size: x-large;
+  
+        &__grupo {
+          display: flex;
+          margin-bottom: 1.8rem;
+          align-items: center;
+          margin-left: 2rem;
+          margin-top: 1rem;
+        }
+  
+        &:hover,
+        &:focus {
+          background-color: #d3d3d3;
+          color: #faf9f6;
+  
+          .button {
+            #boton_form {
+              background-color: #000000;
+              color: #ffffff;
+            }
+          }
+        }
+  
+        label {
+          white-space: nowrap;
+          margin-right: 1rem;
+          text-align: left;
+        }
+  
+        input {
+          flex: 1;
+          text-align: left;
+        }
+  
+        #description {
+          display: flex;
+          flex-direction: column;
+          label {
+            white-space: normal;
+          }
+  
+          textarea {
+            margin-top: 1rem;
+            width: 400px;
+          }
+        }
+  
+        .campo_requerido_container {
+          margin-bottom: 2rem;
+  
+          #requiered {
+            font-size: 0.8rem;
+            margin-bottom: 2rem;
+          }
+        }
+  
+        .button {
+          margin-top: 4rem;
+          margin-left: 1.5rem;
+          #boton_form {
+            color: #000000;
+            background-color: #d3d3d3;
+            font-weight: 300;
+            padding: 1rem 1rem 1rem 1rem;
+            border-radius: 0.5rem;
+            border: none;
+            box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.5);
+            margin-top: 1rem;
+  
+            &:hover,
+            &:focus {
+              color: #faf9f6;
+              box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.3);
+              font-weight: 300;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .head {
+      p {
+        font-size: 1.5rem;
+        font-weight: 200;
+      }
+    }
+  } 
