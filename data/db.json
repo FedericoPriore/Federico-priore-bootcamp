@@ -1,0 +1,172 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Barquillos c/r",
+      "foto": "/img/Barquillos-con-rocklets.webp",
+      "descripcion": "barquillos",
+      "precio": "$220",
+      "stock": "4444",
+      "categoria": "postres",
+      "envio": false,
+      "cantidad": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Choco luna",
+      "foto": "/img/Choco-luna.webp",
+      "descripcion": "choco-luna",
+      "precio": "$200",
+      "stock": "4444",
+      "categoria": "postres",
+      "envio": true,
+      "detalles": "Chocolate con forma de luna"
+    },
+    {
+      "id": 3,
+      "nombre": "Coco",
+      "foto": "/img/Coco.webp",
+      "descripcion": "Coco",
+      "precio": "$200",
+      "stock": "4445",
+      "categoria": "postres",
+      "envio": false,
+      "cantidad": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Isla Flotante",
+      "foto": "/img/Isla-flotante.webp",
+      "descripcion": "Isla-flotante",
+      "precio": "$200",
+      "stock": "4444",
+      "categoria": "postres",
+      "envio": true
+    },
+    {
+      "id": 5,
+      "nombre": "Lemon Pie",
+      "foto": "/img/Lemon-pie.webp",
+      "descripcion": "Lemon-pie",
+      "precio": "$230",
+      "stock": "4444",
+      "categoria": "postres",
+      "envio": false,
+      "cantidad": 1
+    },
+    {
+      "id": 6,
+      "nombre": "Rogel",
+      "foto": "/img/Rogel.webp",
+      "descripcion": "Rogel",
+      "precio": "$200",
+      "stock": "4444",
+      "categoria": "postres",
+      "envio": true
+    },
+    {
+      "id": 7,
+      "nombre": "Selva negra",
+      "foto": "/img/Selva-negra.webp",
+      "descripcion": "Selva-negra",
+      "precio": "$200",
+      "stock": "4444",
+      "categoria": "postres",
+      "envio": false
+    },
+    {
+      "id": 8,
+      "nombre": "Sopa inglesa",
+      "foto": "/img/Sopa-inglesa.webp",
+      "descripcion": "Sopa-inglesa",
+      "precio": "$200",
+      "stock": "4444",
+      "categoria": "postres",
+      "envio": false
+    }
+  ],
+  "carrito": [
+    [
+      {
+        "id": 1,
+        "nombre": "Barquillos c/r",
+        "foto": "/img/Barquillos-con-rocklets.webp",
+        "descripcion": "barquillos",
+        "precio": "$200",
+        "stock": "4444",
+        "categoria": "postres",
+        "envio": false
+      },
+      {
+        "id": 2,
+        "nombre": "Choco luna",
+        "foto": "/img/Choco-luna.webp",
+        "descripcion": "choco-luna",
+        "precio": "$200",
+        "stock": "4444",
+        "categoria": "postres",
+        "envio": true
+      },
+      {
+        "id": 3,
+        "nombre": "Coco",
+        "foto": "/img/Coco.webp",
+        "descripcion": "Coco",
+        "precio": "$200",
+        "stock": "4444",
+        "categoria": "postres",
+        "envio": false
+      },
+      {
+        "id": 4,
+        "nombre": "Isla Flotante",
+        "foto": "/img/Isla-flotante.webp",
+        "descripcion": "Isla-flotante",
+        "precio": "$200",
+        "stock": "4444",
+        "categoria": "postres",
+        "envio": true
+      },
+      {
+        "id": 5,
+        "nombre": "Lemon Pie",
+        "foto": "/img/Lemon-pie.webp",
+        "descripcion": "Lemon-pie",
+        "precio": "$200",
+        "stock": "4444",
+        "categoria": "postres",
+        "envio": false
+      },
+      {
+        "id": 6,
+        "nombre": "Rogel",
+        "foto": "/img/Rogel.webp",
+        "descripcion": "Rogel",
+        "precio": "$200",
+        "stock": "4444",
+        "categoria": "postres",
+        "envio": true
+      },
+      {
+        "id": 7,
+        "nombre": "Selva negra",
+        "foto": "/img/Selva-negra.webp",
+        "descripcion": "Selva-negra",
+        "precio": "$200",
+        "stock": "4444",
+        "categoria": "postres",
+        "envio": false
+      },
+      {
+        "id": 8,
+        "nombre": "Sopa inglesa",
+        "foto": "/img/Sopa-inglesa.webp",
+        "descripcion": "Sopa-inglesa",
+        "precio": "$200",
+        "stock": "4444",
+        "categoria": "postres",
+        "envio": false
+      }
+    ]
+  ]
+}

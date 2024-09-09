@@ -1,22 +1,13 @@
-import { resolve } from "node:path";
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-export default {
-    server: {
-        port: 3333,
-    },
-    css: {
-        devSourceMap: true,
-    },
-    build: {
-        emptyOutDir: true,
-        rollupOptions: {
-            input: {
-                alta: resolve('views/alta.html'),
-                carrito: resolve('views/carrito.html'),
-                contacto: resolve('views/contacto.html'),
-                nosotros: resolve('views/nosotros.html'),
-                inicio: resolve('index.html'), /* D:\_course\7170.bootcamp.fulltack\clase-23\bc-71350-integrador-etapa-1 */
-            }
-        }
-    }
-}
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  css: {
+    devSourcemap: true
+  },
+  server: {
+    port: 1234
+  }
+})
