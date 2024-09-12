@@ -1,3 +1,26 @@
+.buttoncard {
+  width: 50%;
+  padding: 10px;
+  margin: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+  &:hover {
+    background-color: rgb(165, 165, 165);
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+
 @media (min-width: 576px) {
     .card {
       width: 200px;

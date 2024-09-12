@@ -17,7 +17,7 @@ const Contacto = () => {
       <form>
         <div className="Form-Container__Form-contact__grupo">
           <label htmlFor="label-nombre">Nombre: * </label>
-          <input
+          <input className="inputcheck"
             type="text"
             name="nombre"
             id="label-nombre"
@@ -28,7 +28,7 @@ const Contacto = () => {
 
         <div className="Form-Container__Form-contact__grupo">
           <label htmlFor="label-apellido">Apellido: </label>
-          <input
+          <input className="inputcheck"
             type="text"
             name="apellido"
             id="label-apellido"
@@ -38,7 +38,7 @@ const Contacto = () => {
 
         <div className="Form-Container__Form-contact__grupo">
           <label htmlFor="label-email">Correo Electrónico: * </label>
-          <input
+          <input className="inputcheck"
             type="email"
             name="email"
             id="label-email"
@@ -49,13 +49,13 @@ const Contacto = () => {
 
         <div className="Form-Container__Form-contact__grupo">
           <label htmlFor="label-numero">Número de teléfono: </label>
-          <input type="tel" name="numero" id="label-numero" placeholder="Ej: 1122874777"/>
+          <input className="inputcheck" type="tel" name="numero" id="label-numero" placeholder="Ej: 1122874777"/>
         </div>
 
         <div className="Form-Container__Form-contact__grupo">
           <div id="description">
             <label htmlFor="label-descripcion">¿Que te gustaria pedirnos?: * </label>
-            <textarea
+            <textarea className="inputcheck"
               name="detalles"
               id="label-descripcion"
               cols="20"
@@ -69,7 +69,7 @@ const Contacto = () => {
           <div className="campo_requerido_container">
             <p id="requiered">* Campos requeridos</p>
           </div>
-          <div className="button">
+          <div className="buttoncontact">
             <button id="boton_form">Enviar</button>
           </div>
         </div>

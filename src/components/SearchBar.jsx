@@ -4,10 +4,10 @@ const SearchBar = () => {
   return (
     <div className="search-bar">
         <div className="search-bar__logo-container">
-          <img className="search-bar__logokaluc" src="/img/kaluc.webp" alt="Ka-luc-logo"/>
+          <img htmlFor="inicio" className="search-bar__logokaluc" src="/img/kaluc.webp" alt="Ka-luc-logo"/>
         </div>
         <form action="#" className="search-bar__form-container">
-          <label htmlFor="busqueda" className="search-bar__form-label">Tortas y Postres</label>
+          <label className="search-bar__form-label">Tortas y Postres</label>
           <input 
           type="search" className="search-bar__form-search" id="busqueda"
           />

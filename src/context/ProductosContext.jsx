@@ -9,6 +9,7 @@ const ProductosProvider = ( { children} ) => {
     const url = import.meta.env.VITE_BACKEND_PRODUCTOS
     const [productos, setProductos] = useState(null)
     const [productoAEditar, setProductoAEditar] = useState(null)
+    const [productoAEliminar, setProductoAEliminar] = useState(null)
 
     useEffect(() => {
         getAllProductos()
@@ -76,13 +77,37 @@ const ProductosProvider = ( { children} ) => {
 
     }
 
+    const eliminarProductoContext = async (productoEliminado) => {
+        // console.log(productoEditado)
+        try {
+
+            const options = {
+                method: 'DELETE',
+                headers: { 'content-type' : 'application/json' },
+                body: JSON.stringify(productoEliminado)
+            }
+
+            const eliminadoProducto = await helperPeticionesHttp(url, options)
+
+            console.log(eliminadoProducto)
+
+            setProductos([...productos, eliminadoProducto])
+            
+        } catch (error) {
+            console.error('[eliminarProductoContext]', error)
+        }
+
+    }
 
     const data = {
         productos,
         crearProductoContext,
         actualizarProductoContext,
+        eliminarProductoContext,
         productoAEditar,
-        setProductoAEditar
+        setProductoAEditar,
+        productoAEliminar,
+        setProductoAEliminar
     }
 
     return <ProductosContext.Provider value={data}>{ children }</ProductosContext.Provider>
