@@ -90,26 +90,6 @@
       "categoria": "postres",
       "envio": false,
       "detalles": "Mucho sabor en un solo postre"
-    },
-    {
-      "id": 9,
-      "nombre": "1",
-      "precio": "1",
-      "stock": "1",
-      "categoria": "1",
-      "detalles": "1",
-      "foto": "",
-      "envio": false
-    },
-    {
-      "id": 10,
-      "nombre": "",
-      "precio": "",
-      "stock": "",
-      "categoria": "",
-      "detalles": "",
-      "foto": "",
-      "envio": false
     }
   ],
   "carrito": [

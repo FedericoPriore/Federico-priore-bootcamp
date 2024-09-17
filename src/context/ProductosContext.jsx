@@ -77,27 +77,24 @@ const ProductosProvider = ( { children} ) => {
 
     }
 
-    const eliminarProductoContext = async (productoEliminado) => {
-        // console.log(productoEditado)
+    const eliminarProductoContext = async (id) => {
         try {
-
             const options = {
                 method: 'DELETE',
-                headers: { 'content-type' : 'application/json' },
-                body: JSON.stringify(productoEliminado)
-            }
-
-            const eliminadoProducto = await helperPeticionesHttp(url, options)
-
-            console.log(eliminadoProducto)
-
-            setProductos([...productos, eliminadoProducto])
+                headers: { 'content-type': 'application/json' }
+            };
+    
+            // Enviamos la solicitud DELETE
+            await helperPeticionesHttp(`${url}/${id}`, options);
+    
+            // Actualizamos el estado para eliminar el producto
+            setProductos(productos.filter(producto => producto.id !== id));
             
         } catch (error) {
-            console.error('[eliminarProductoContext]', error)
+            console.error('[eliminarProductoContext]', error);
         }
-
     }
+    
 
     const data = {
         productos,

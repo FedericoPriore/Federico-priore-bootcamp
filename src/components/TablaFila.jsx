@@ -5,7 +5,7 @@ import ProductosContext from '../context/ProductosContext'
 const TablaFila = ({ producto }) => {
 
   const { setProductoAEditar } = useContext(ProductosContext)
-  const { setProductoAEliminar } = useContext(ProductosContext)
+  const { eliminarProductoContext } = useContext(ProductosContext)
   
   //console.log(producto)
   const handleEditar = (producto) => {
@@ -14,7 +14,7 @@ const TablaFila = ({ producto }) => {
   }  
   const handleEliminar = (id) => {
     console.log('Eliminando el producto...',id)
-    setProductoAEliminar(id)
+    eliminarProductoContext(id)
       }
 
   
