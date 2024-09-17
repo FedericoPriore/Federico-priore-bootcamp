@@ -1,9 +1,4 @@
-[build]
-  publish = "build" 
-  command = "npm run build"
-
-
 [[redirects]]
-  from = "/*"
-  to = "http://localhost:8080"
-  status = 200
+from = "/*"
+to = "/index.html"
+status = 200
