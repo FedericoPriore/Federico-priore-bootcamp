@@ -9,5 +9,8 @@ export default defineConfig({
   },
   server: {
     port: 1234
+  },
+  build: {
+    target: 'esnext' // o 'es2022'
   }
 })
