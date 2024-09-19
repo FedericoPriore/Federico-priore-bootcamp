@@ -1,10 +1,13 @@
 import { Link } from "react-router-dom";
+import './SearchBar.scss'
 
 const SearchBar = () => {
   return (
     <div className="search-bar">
         <div className="search-bar__logo-container">
+          <a href="/">
           <img htmlFor="inicio" className="search-bar__logokaluc" src="/img/kaluc.webp" alt="Ka-luc-logo"/>
+          </a>
         </div>
         <form action="#" className="search-bar__form-container">
           <label className="search-bar__form-label">Tortas y Postres</label>

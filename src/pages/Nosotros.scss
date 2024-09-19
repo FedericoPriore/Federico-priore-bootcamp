@@ -4,25 +4,25 @@ body {
   }
 
   .logoKaluc{
-   max-width: 50%;
+   max-width: 35%;
   }
   
   @media (min-width: 576px) {
     .Head-section {
       h1 {
         font-weight: 300;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         color:#001cd0;
-        border-bottom-left-radius: 2rem;
-        border-bottom-right-radius: 2rem;
-        padding-top: 2rem;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        padding-top: 0.5rem;
       }
     }
     
     .Info-section {
       text-align: center;
-      padding-left: 5rem;
-      padding-right: 5rem;
+      padding-left: 18rem;
+      padding-right: 18rem;
       margin-top: 2rem;
   
       p {
@@ -53,8 +53,8 @@ body {
           margin-bottom: 2rem;
           background-color: #a3a3a3;
           font-weight: 600;
-          font-size: xx-large;
-          color: #001cd0;
+          font-size: 2rem;
+          color: #1333ffe7;
           text-transform: uppercase;
           padding: 1rem 1rem 1rem 1rem;
         }
@@ -96,7 +96,7 @@ body {
   
   }
   @media (max-width: 768px) {
-    .Info-section__cardsMV {
+    .Info-section__cards {
       display: flex;
       justify-content: center;
       flex-direction: column;
