@@ -4,7 +4,7 @@
       h1 {
         font-weight:bolder;
         margin-bottom: 2rem;
-        color: #000000;
+        color: rgb(38,76,152);
         padding-top: 1rem;
       }
   
@@ -13,7 +13,7 @@
         font-weight: 500;
         font-size: 1.4rem;
         text-align: center;
-        color: #000000;
+        color: rgb(38,76,152);
       }
     }
   
@@ -24,10 +24,10 @@
       text-align: center;
   
       &__Form-contact {
-        border: 2px solid #000000;
-        box-shadow: 5px 5px 5px 5px rgba(0, 76, 255, 0.874);
+        border: 2px solid rgb(38,76,152);
+        box-shadow: 5px 5px 5px 5px rgb(38,76,152);
         background-color: #ffffff;
-        color: #000000;
+        color: rgb(38,76,152);
         padding: 3rem 3rem 0.5rem 0.9rem;
         margin-bottom: 3rem;
         margin-top: 2rem;
@@ -49,13 +49,13 @@
   
         &:hover,
         &:focus {
-          background-color: #000000;
+          background-color: rgb(114,61,144);
           color: #faf9f6;
   
           .button {
             #boton_form {
               background-color: #ffffff;
-              color: #000000;
+              color: rgb(114,61,144);
             }
           }
         }
@@ -68,7 +68,7 @@
           transition: border-color 0.3s ease;
     
           &:focus {
-            border-color: rgb(0, 94, 255);
+            border-color: rgb(38,76,152);
             outline: none;
           }
         }
@@ -110,17 +110,17 @@
           margin-left: 4.5rem;
           #boton_form {
             color: #ffffff;
-            background-color: #000000;
+            background-color: rgb(114,61,144);
             font-weight: 300;
             padding: 1rem 1rem 1rem 1rem;
             border-radius: 0.5rem;
             border: none;
-            box-shadow: 1px 1px 2px 2px rgba(255, 255, 255, 0.5);
+            box-shadow: 1px 1px 2px 2px rgb(173,174,174);
             margin-top: 1rem;
   
             &:hover,
             &:focus {
-              color: #909090;
+              color: rgb(173,174,174);
               box-shadow: 1px 1px 5px 5px rgba(255, 255, 255, 0.3);
               font-weight: 300;
             }

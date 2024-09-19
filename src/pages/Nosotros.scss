@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    color: black;
+    color: rgb(38,76,152);
   }
 
   .logoKaluc{
@@ -12,7 +12,7 @@ body {
       h1 {
         font-weight: 300;
         margin-bottom: 1rem;
-        color:#001cd0;
+        color:rgb(38,76,152);
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem;
         padding-top: 0.5rem;
@@ -21,8 +21,8 @@ body {
     
     .Info-section {
       text-align: center;
-      padding-left: 18rem;
-      padding-right: 18rem;
+      padding-left: 13rem;
+      padding-right: 13rem;
       margin-top: 2rem;
   
       p {
@@ -54,7 +54,7 @@ body {
           background-color: #a3a3a3;
           font-weight: 600;
           font-size: 2rem;
-          color: #1333ffe7;
+          color: rgb(38,76,152);
           text-transform: uppercase;
           padding: 1rem 1rem 1rem 1rem;
         }
@@ -81,15 +81,15 @@ body {
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
         transition: clip-path 0.8s;
         h2 {
-          color: #001cd0;
+          color: rgb(38,76,152);
           padding-top: 0.3rem;
           padding-bottom: 1rem;
-          font-size: x-large;
-          font-weight: 300;
+          font-size: 1.9rem;
+          font-weight: 600;
         }
         p {
           font-weight: 100;
-          color: #001cd0;
+          color: rgb(38,76,152);
         }
       }
     } 

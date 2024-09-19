@@ -14,7 +14,7 @@
   font-size: 1rem;
   font-weight: bold;
   color: #fff;
-  background-color: black;
+  background-color: rgb(114,61,144);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -52,7 +52,7 @@
       transition: border-color 0.3s ease;
 
       &:focus {
-        border-color: rgb(0, 4, 255);
+        border-color: rgb(38,76,152);
         outline: none;
       }
     }
