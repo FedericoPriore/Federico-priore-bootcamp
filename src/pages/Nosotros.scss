@@ -4,7 +4,10 @@ body {
   }
 
   .logoKaluc{
-   max-width: 35%;
+    max-width: 26em;
+            height: auto;
+            display: block;
+            margin: 0 auto;
   }
   
   @media (min-width: 576px) {

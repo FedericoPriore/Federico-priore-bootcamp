@@ -50,8 +50,8 @@
       }
   
       &__image {
-        width: 100%;
-        height: 100%;
+        max-width: 12em;
+        max-height: 12em;
         object-fit: cover;
       }
   
@@ -122,13 +122,17 @@
   
       & &__image-container {
         /* .card .card__image-container */
-        width: 40%;
+        max-width: 12em;
+        max-height: 12em;
+        object-fit: cover;
         clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);  /* Estado Inicial */
       }
   
       &:hover &__image-container,
       &:focus &__image-container {
-        width: 40%;
+        max-width: 12em;
+        max-height: 12em;
+        object-fit: cover;
          clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);  /* Estado final */
       }
     }

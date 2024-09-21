@@ -20,6 +20,9 @@ const Card = ( { producto } ) => {
             src={producto.foto}
             alt={producto.nombre}
             className="card__image"
+            srcSet={`${producto.foto.replace('.jpg', '-200.jpg')} 200w, ${producto.foto.replace('.jpg', '-400.jpg')} 400w, ${producto.foto.replace('.jpg', '-800.jpg')} 800w`}
+            sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            loading="lazy"
           />
         </div>
         <div className="card__content">
