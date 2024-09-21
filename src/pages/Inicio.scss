@@ -1,26 +1,38 @@
 .section-cards {
-    background-color: #f1f2f3;
-    padding: 1rem;
+  background-color: #f1f2f3;
+  padding: 1rem;
 }
 
 .cards-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem; // Espaciado entre tarjetas
 }
+
 .titular {
-    font-weight:bolder;
-    font-size: 50px;
-    margin-bottom: 2rem;
-    color: rgb(35,131,185);
-    padding-top: 1rem;
+  font-weight: bolder;
+  font-size: 3rem; // Cambiado a unidades relativas
+  margin-bottom: 2rem;
+  color: rgb(35, 131, 185);
+  padding-top: 1rem;
+}
+
+.secundar {
+  font-weight: bolder;
+  font-size: 1.5rem; // Cambiado a unidades relativas
+  margin-bottom: 1rem;
+  color: rgb(35, 131, 185);
+  padding-top: 0.5rem;
+}
+
+// Media Queries
+@media (max-width: 768px) {
+  .titular {
+      font-size: 2.5rem; // Ajusta para pantallas más pequeñas
   }
 
-.secundar{
-        font-weight:bolder;
-        font-size: 20px;
-        margin-bottom: 1rem;
-        color: rgb(35,131,185);
-        padding-top: 0.5rem;
-      }
+  .secundar {
+      font-size: 1.2rem; // Ajusta para pantallas más pequeñas
+  }
+}
