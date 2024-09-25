@@ -53,7 +53,7 @@
   }
 
   &__image {
-    max-width: 100%; // Asegura que la imagen no exceda el contenedor
+    width: 100%; // Asegura que la imagen no exceda el contenedor
     height: auto; // Mantiene la proporción
     object-fit: cover; 
   }
